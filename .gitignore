@@ -3,3 +3,6 @@
 ################################################################################
 
 /ParallelTasksExample/ParallelTasksExample/bin/Debug/netcoreapp2.2
+/ParallelTasksExample/ParallelTasksExample/obj/Debug/netcoreapp2.2
+/ParallelTasksExample/.vs/ParallelTasksExample/v15/Server/sqlite3
+/ParallelTasksExample/ParallelTasksExample/obj
