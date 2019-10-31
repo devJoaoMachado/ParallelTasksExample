@@ -1,4 +1,4 @@
 # ParallelTasksExample
 Example code in c#
 
-Project .NET Core 2.2
+.NET Core 2.2
