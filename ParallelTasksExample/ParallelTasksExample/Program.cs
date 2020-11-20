@@ -89,7 +89,7 @@ namespace ParallelTasksExample
             var taskDownload = Task.Run(() => DownloadFile());
             var taskWriting = Task.Run(() => WritingOnDisk());
 
-            Task.WaitAll(taskDownload, taskWriting);
+            Task.WhenAll(taskDownload, taskWriting);
 
             Console.WriteLine($"Total time(s) {stopwatch.ElapsedMilliseconds / 1000}");
 
